@@ -5,7 +5,7 @@ Now we need tables and fields. To create tables we go to `models.py`.
 
 ### Example
 
-```
+```python
 from django.db import models
 
 class Employee(models.Model):

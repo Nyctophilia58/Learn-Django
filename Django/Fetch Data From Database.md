@@ -3,7 +3,7 @@ To fetch data from models we need functions. For example `home` function. Whenev
 
 
 create a context dictionary to pass the data to the html file. 
-```
+```html
 {% for employee in employees %}
 
 	<tr>

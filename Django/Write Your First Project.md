@@ -1,12 +1,12 @@
 ### Creating a project
 
-```
+```python
 django-admin startproject mysite djangotutorial
 ```
 
 
 Let’s look at what [`startproject`](https://docs.djangoproject.com/en/6.0/ref/django-admin/#django-admin-startproject) created:
-```
+```python
 djangotutorial/
     manage.py
     mysite/
@@ -38,7 +38,7 @@ These files are:
 
 Let’s verify your Django project works. Change into the `djangotutorial` directory, if you haven’t already, and run the following commands:
 
-```
+```python
 python manage.py runserver
 ```
 

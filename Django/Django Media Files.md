@@ -4,13 +4,13 @@ In Django any files that are uploaded by the user are called media files. To loa
 1. Create a folder called media on the root folder. 
 
 2. In `settings.py`:
-```
+```python
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 ```
 
 3.  Add following snippet to your `urls.py`
-```
+```python
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -20,7 +20,7 @@ urlpatterns = [
 ```
 
 4. Add string representation of the model in `models.py` for an example class `Employee`
-```
+```python
 def __str__(self):
 
 return f'{self.first_name} {self.last_name}'

@@ -6,7 +6,10 @@ We get built-in admin panel where we can do almost all types of CRUD operations.
 In the browser go to `admin/`, you'll see a page asking for login. To get the login credentials you need to create superuser. 
 
 #### To create superuser:
-	`python manage.py createsuperuser`
+
+```python
+python manage.py createsuperuser
+```
 
 Give username(djangoadmin), email(work-email), password(laptop).
 

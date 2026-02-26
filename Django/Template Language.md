@@ -6,7 +6,7 @@ A template contains **variables**, which get replaced with values when the templ
 
 Below is a minimal template that illustrates a few basics. Each element will be explained later in this document.
 
-```
+```html
 {% extends "base_generic.html" %}
 
 {% block title %}{{ section.title }}{% endblock %}

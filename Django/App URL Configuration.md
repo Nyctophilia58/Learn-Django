@@ -1,7 +1,7 @@
 
 The next step is to configure the root URLconf in the `mysite` project to include the URLconf defined in apps urls(for example, `polls.urls`). To do this, add an import for `django.urls.include` in `mysite/urls.py` and insert an [`include()`](https://docs.djangoproject.com/en/6.0/ref/urls/#django.urls.include "django.urls.include") in the `urlpatterns` list, so you have:
 
-```
+```python
 from django.contrib import admin
 from django.urls import include, path
 
